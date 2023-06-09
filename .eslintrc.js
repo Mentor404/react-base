@@ -9,8 +9,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
   ],
-  overrides: [
-  ],
+  overrides: [],
   parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 'latest',
@@ -20,6 +19,6 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 'warn',
   },
 };
